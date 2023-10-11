@@ -17,6 +17,18 @@ class MyApp extends StatelessWidget {
       // Scaffold is a widget that wraps a single widget (white background by default)
       home: Scaffold(
         backgroundColor: Colors.deepPurple[100],
+        appBar: AppBar(
+          title: Text("My App"),
+          backgroundColor: Colors.deepPurple,
+          elevation: 0,
+          leading: Icon(Icons.menu), // adds a button to the left of the app bar
+          actions: [
+            IconButton(
+                onPressed: () {},
+                icon: Icon(
+                    Icons.search)) // adds a button to the right of the app bar
+          ],
+        ),
         body: Center(
           child: Container(
             height: 300,
