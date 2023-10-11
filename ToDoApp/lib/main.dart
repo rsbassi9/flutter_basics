@@ -26,13 +26,10 @@ class MyApp extends StatelessWidget {
                 borderRadius: BorderRadius.circular(20)),
             // EdgeInsets.symmetric(horizontal: 25, vertical: 50), or EdgeInsets.only(left: 25, top: 50, right: 25, bottom: 50)
             padding: EdgeInsets.all(25),
-            child: Text(
-              "Rajvir Bassi",
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 28,
-                fontWeight: FontWeight.bold,
-              ),
+            child: Icon(
+              Icons.home,
+              color: Colors.white,
+              size: 64,
             ),
           ),
         ),
